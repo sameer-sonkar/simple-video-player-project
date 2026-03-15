@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "sameer",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "nodemon": "^3.1.14"
-  }
+    "nodemon": "^2.0.20"
+  },
+  "description": "",
+  "type": "module"
 }
